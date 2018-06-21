@@ -1,0 +1,189 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+html,
+body,
+.view {
+  height: 100%; 
+}
+.title {
+    color: #112f6b!important;    
+}
+h2 {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 28px;
+}
+h3, p {
+    font-size: 0.95rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+h3.title i {
+    vertical-align: bottom;
+    font-size: 22px;
+    color: #AA66CC;
+}
+.spacing {
+    letter-spacing: 1px;
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.btn-main {
+    background-color: #AA66CC;
+}
+.btn-main:hover, .btn-main:focus, .btn-main:active {
+    background-color: #AA66CC;
+}
+.btn-rounded {
+    border-radius: 10em;
+}
+.text-small {
+    font-size: 14px!important;
+}
+.nav-link.text-small {
+    padding: 10px;
+}
+.navbar {
+  background-color: #fff;  
+}
+.navbar.navbar-light .navbar-nav .nav-item {
+    margin-left: 10px;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #112f6b;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover, .navbar.navbar-light .navbar-nav .nav-item.active .nav-link:hover,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:focus,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:active {
+    color: #AA66CC;
+}
+.navbar.navbar-light .navbar-nav .nav-item.active .nav-link {
+    background-color: transparent;
+    color: #AA66CC;
+}
+.top-nav-collapse {
+  background-color: #fff; 
+}
+#objetives div.col-md-4 {
+    margin-bottom: 40px;
+}
+#summary {
+    background-color: #F4F4FA;
+}
+.summary {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#summary h2 {
+    margin-top: 0;
+    margin-bottom: 58px;
+}
+.cant {
+    font-size: 40px;
+    color: #112f6b;
+}
+.cant-text {
+    color: #112f6b;
+}
+.estatutos {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+#estatutos a.btn {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+#empty {
+    margin-top: 7rem;
+    padding-bottom: 10rem;
+}
+#repositorio {
+    margin-top: 6rem;
+}
+.download {
+    color: #112f6b;
+}
+.download:hover,
+.download:focus,
+.download:active {
+    color: #AA66CC;
+}
+
+  /* Footer */
+.page-footer {
+    background-color: #1C2331; 
+}
+footer .information {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+}
+footer .social-networks {
+    background-color: #AA66CC;
+}
+footer h6 {
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+footer p, footer a {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+footer .information ul li {
+    margin-bottom: 10px;
+}
+.rgba-indigo-strong {
+    background-color: rgba(60, 62, 76, 0.46);
+}
+h1 {
+    font-size: 2rem;
+}
+#actividades,
+#clubes,
+#repositorio,
+#mision {
+    margin-top: 6rem;
+}
+#message {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+#message p {
+    font-size: 18px;
+}
+#clubes .card {
+    border: none;
+    box-shadow: none;
+}
+.card .card-img-top {
+    width: 140px;
+    margin: 0 auto;
+}
+#actividades .card {
+    border: none;
+    box-shadow: none;
+    border-left: 3px solid #e8e8e8;
+    border-radius: 0;
+}
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #fff; 
+    } 
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #fff!important;
+    }
+}
+
+@media(min-width: 992px) {
+    h1 {
+        font-size: 2.5rem;
+    }    
+}

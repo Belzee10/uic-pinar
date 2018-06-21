@@ -1,0 +1,39 @@
+body {
+    padding-top: 5rem;
+    padding-bottom: 40px;
+    background-color: #F4F4FA;
+  }
+
+  #login {
+      margin-top: 6rem;
+      margin-bottom: 10rem;
+  }
+#login .card {
+    max-width: 350px;
+    margin: 0 auto;    
+}
+.card {
+    box-shadow: none;
+}
+h3 {
+    font-size: 1.7rem;
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: center;
+}
+h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:#AA66CC;
+}
+.btn-login {
+    margin-top: 20px!important;
+}
+.form-control-lg {
+    font-size: 18px;
+}
+hr {
+    margin-top: 5px;
+}

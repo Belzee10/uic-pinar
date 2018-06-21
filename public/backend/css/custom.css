@@ -1,0 +1,164 @@
+
+body {
+  margin:0;
+  padding:0;  
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  min-height:100vh;
+}
+main {
+  flex:1 0 auto;
+}
+.sidebar-fixed {
+  background-image: url('../img/sidenav.jpg');
+  height: 100vh;
+  width: 250px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1040;
+  overflow: hidden;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-attachment: fixed;
+  height: 100%;
+  overflow: hidden;
+}
+.rgba-black-light {
+  background-color: rgba(0, 0, 0, 0.83);
+}
+.sidebar-fixed .list-group .list-group-item {
+  border-radius: 0;
+  background-color: transparent;
+  padding: 10px 20px;  
+  border-top: 1px solid rgba(119, 119, 119, 0.125);
+}
+.sidebar-fixed .list-group .active {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #9933CC;
+  border-color: #9933CC;  
+}
+.sidebar-fixed .list-group-item:hover,
+.sidebar-fixed .list-group-item:focus,
+.sidebar-fixed .list-group-item:active {
+  background-color: #9933CC;
+}
+.sidebar-fixed .list-group .list-group-item {
+  color: #fff;
+  display: block;
+}
+.sidebar-fixed .logo-wrapper {
+  padding: 2.5rem; 
+}
+.sidebar-fixed .logo-wrapper img {
+  max-height: 50px; 
+}
+.sidebar-fixed ul.list-group ul {
+  padding-left: 0;
+}
+.sidebar-fixed ul.list-group ul a.list-group-item {
+  padding-left: 40px;
+}
+.table thead tr th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+a.download {
+  font-size: 18px;
+  color: #212529;
+}
+h4.titulo {
+  margin-bottom: 30px;
+}
+.btn-secondary {
+  background-color: #9933CC;  
+}
+.btn {
+  padding: 10px 20px;
+}
+.badge-secondary {
+  background-color: #868e96!important;
+}
+.table .btn {
+  padding: 0 3px;
+  font-size: 16px;
+}
+.card {
+  box-shadow: none;
+}
+form.delete {
+  display: inline;
+}
+form.delete button {
+  margin: 0;
+}
+.pagination .page-item.active .page-link {
+  background-color: #9933CC;
+  padding: 6px 10px
+}
+.pagination .page-item.active .page-link:hover,
+.pagination .page-item.active .page-link:focus,
+.pagination .page-item.active .page-link:active {
+  background-color: #9933CC;
+}
+.custom-file-label:lang(en)::after {
+  content: "Examinar";
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color:#9933CC;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::before{
+  background-color:#9933CC;
+}
+.card .card-body h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0;
+}
+.card .card-body hr {
+  margin-top: 6px;
+}
+.mCS-my-theme.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: transparent; }
+.mCS-my-theme.mCSB_scrollTools .mCSB_draggerRail{ background-color: transparent; }
+
+.btn-excel {
+  background-color: #217346;
+  text-transform: capitalize;
+}
+.btn-planilla {
+  background-color: #2B579A;
+  text-transform: capitalize;
+  font-size: 12px!important;
+}
+dt {
+  margin-bottom: .5rem;
+}
+.alert ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .navbar,
+  .page-footer,
+  main {
+    padding-left: 250px; 
+  } 
+  }
+
+@media (max-width: 1199.98px) {
+  .sidebar-fixed {
+    display: none; 
+  }
+ }
