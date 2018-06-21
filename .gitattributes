@@ -4,3 +4,5 @@
 *.js linguist-vendored
 CHANGELOG.md export-ignore
 static/* linguist-vendored
+*.php linguist-language=PHP
+
