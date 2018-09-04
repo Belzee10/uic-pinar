@@ -15,6 +15,9 @@
 **User:** `admin@email.com`
 **Password:** `123`
 
+#### Preview:
+![alt text](https://res.cloudinary.com/dombtm0fe/image/upload/v1536087458/screencapture-localhost-uic-pinar-public-admin-2018-09-04-15_03_11.png)
+
 
 
 
