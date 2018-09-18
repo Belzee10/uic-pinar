@@ -1,5 +1,8 @@
-### **UIC** (Union de informaticos de Cuba)
-#### Official website of the Union of the Cuban Informatics (UIC).
+### **UIC** (Cuban Informatics Union)
+This APP was created to manage all the information of the directors of the UIC in Pinar del Rio, Cuba, such as: *clubs*, *courses*, *members*, etc.
+
+#### Screenshot:
+![alt text](https://res.cloudinary.com/dombtm0fe/image/upload/v1536087458/screencapture-localhost-uic-pinar-public-admin-2018-09-04-15_03_11.png)
 
 #### How to run:
 - Clone: `https://github.com/Belzee10/uic-pinar.git`
@@ -14,9 +17,6 @@
 
 **User:** `admin@email.com`
 **Password:** `123`
-
-#### Preview:
-![alt text](https://res.cloudinary.com/dombtm0fe/image/upload/v1536087458/screencapture-localhost-uic-pinar-public-admin-2018-09-04-15_03_11.png)
 
 
 
